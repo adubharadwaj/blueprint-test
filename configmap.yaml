@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: blueprint-client
-  namespace: flux-test
-data:
-  blueprint.server.url: "http://blueprint-server.flux-test:8080"
-  spring.zipkin.baseUrl: "http://blueprint-jaeger-collector.blueprint:9411"
